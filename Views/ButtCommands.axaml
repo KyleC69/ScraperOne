@@ -1,0 +1,37 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             xmlns:vm="using:ScraperOne.ViewModels"
+             xmlns:views="clr-namespace:ScraperOne.Views"
+             x:DataType="vm:ManagerButtonsViewModel"
+             x:Class="ScraperOne.Views.ButtCommands"
+             x:CompileBindings="true" Height="45">
+    <UserControl.DataContext>
+        <vm:ManagerButtonsViewModel />
+    </UserControl.DataContext>
+
+    <Border BorderBrush="Silver" BorderThickness="2">
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Background="ForestGreen" Height="40"
+                    VerticalAlignment="Center" Margin="4">
+                  
+            <Button Width="120" Name="Authenticate" Foreground="White" Content="Authenticate"
+                    Command="{Binding AuthenticateCommand}" />
+            <Button Width="120" Name="Settings" Foreground="White" Content="Blog Settings"
+                    Command="{Binding BlogSettingsCommand}" />
+            <Button Width="120" Name="EnqueButt" Foreground="White" Content="Enqueue"
+                    Command="{Binding EnqueBlogCommand}"
+                     />
+            <Button Width="120" Name="Updatebtn" Foreground="White" Content="UpdateMeta"
+                    Command="{Binding UpdateBlogCommand}" />
+            <Button Width="120" Name="Stopbtn" Foreground="White" Content="Refresh"
+                    Command="{Binding RefreshCommand}" />
+            <Button Width="120" Name="Crawlbtn" Foreground="White" Content="StartCrawling"
+                    Command="{Binding StartCrawlerCommand}" />
+            <Button Width="120" Name="SendText" Foreground="Wheat" Content="LoadDB"
+                    Command="{Binding SendTextCommand}" />
+        </StackPanel>
+    </Border>
+</UserControl>

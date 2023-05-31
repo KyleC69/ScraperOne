@@ -18,6 +18,9 @@ build_property.ProjectDir = /storage/Repos/ScraperRepos/ScraperOne/
 [/storage/Repos/ScraperRepos/ScraperOne/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/storage/Repos/ScraperRepos/ScraperOne/Controls/Indicator.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/storage/Repos/ScraperRepos/ScraperOne/Views/BlogManagerView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
@@ -34,6 +37,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/storage/Repos/ScraperRepos/ScraperOne/Views/ErrorView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/storage/Repos/ScraperRepos/ScraperOne/Views/Footer.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/storage/Repos/ScraperRepos/ScraperOne/Views/ShellWin.axaml]

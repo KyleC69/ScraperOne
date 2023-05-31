@@ -1,0 +1,24 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="using:ScraperOne.Controls">
+    <Design.PreviewWith>
+        <controls:Indicator />
+    </Design.PreviewWith>
+
+    <Style Selector="controls|Indicator">
+        <Style Selector="controls|Indicator:inactive">
+            <Setter Property="Ellipse.Fill" Value="Bisque" />
+        </Style>
+        <Style Selector="controls|Indicator:active">
+            <Setter Property="Ellipse.Fill" Value="Red"/>
+        </Style>
+        <Setter Property="Template">
+            <ControlTemplate>
+                <StackPanel Orientation="Vertical" Width="200" Height="25">
+                <Ellipse Width="15" Height="15"></Ellipse>
+                <TextBlock Text="{TemplateBinding IndicatorText}" />
+                </StackPanel>
+            </ControlTemplate>
+        </Setter>
+    </Style>
+</Styles>

@@ -7,13 +7,6 @@
 /storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/ScraperOne.AssemblyInfoInputs.cache
 /storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/ScraperOne.AssemblyInfo.cs
 /storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/ScraperOne.csproj.CoreCompileInputs.cache
-/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/ScraperOne.csproj.Fody.CopyLocal.cache
-/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/ScraperOne.csproj.Fody.RuntimeCopyLocal.cache
-/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/Avalonia/references
-/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/Avalonia/original.dll
-/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/Avalonia/original.pdb
-/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/Avalonia/original.ref.dll
-/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/refint/ScraperOne.dll
 /storage/Repos/ScraperRepos/ScraperOne/bin/Debug/net7.0/ScraperOne
 /storage/Repos/ScraperRepos/ScraperOne/bin/Debug/net7.0/ScraperOne.deps.json
 /storage/Repos/ScraperRepos/ScraperOne/bin/Debug/net7.0/ScraperOne.runtimeconfig.json
@@ -180,6 +173,13 @@
 /storage/Repos/ScraperRepos/ScraperOne/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
 /storage/Repos/ScraperRepos/ScraperOne/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
 /storage/Repos/ScraperRepos/ScraperOne/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/ScraperOne.csproj.Fody.CopyLocal.cache
+/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/ScraperOne.csproj.Fody.RuntimeCopyLocal.cache
+/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/Avalonia/references
+/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/Avalonia/original.dll
+/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/Avalonia/original.pdb
+/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/Avalonia/original.ref.dll
+/storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/refint/ScraperOne.dll
 /storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/ScraperOne.dll
 /storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/ScraperOne.pdb
 /storage/Repos/ScraperRepos/ScraperOne/obj/Debug/net7.0/ScraperOne.csproj.CopyComplete

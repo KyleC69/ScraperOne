@@ -1,0 +1,52 @@
+<reactiveUi:ReactiveUserControl x:TypeArguments="viewModels:CrawlerViewModel" xmlns="https://github.com/avaloniaui"
+                                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                                xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                                xmlns:reactiveUi="http://reactiveui.net"
+                                xmlns:viewModels="clr-namespace:ScraperOne.ViewModels"
+                                mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+                                x:Class="ScraperOne.Views.CrawlerView">
+
+
+    <DataGrid Height="600" Width="1100"
+              Name="ActivityGrid"
+              HeadersVisibility="All"
+              GridLinesVisibility="All"
+              ColumnHeaderHeight="30"
+              CornerRadius="15"
+              CanUserReorderColumns="True"
+              BorderBrush="Orange" Foreground="Black" RowBackground="BurlyWood"
+              BorderThickness="2,2,2,2"
+              IsReadOnly="True"
+              ItemsSource="{Binding Path=ActiveItems}"
+              AutoGenerateColumns="False"
+              ScrollViewer.HorizontalScrollBarVisibility="Auto"
+              ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <DataGrid.Styles>
+            <Style Selector="DataGridColumnHeader">
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="Background" Value="SlateGray" />
+            </Style>
+        </DataGrid.Styles>
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Name" Foreground="Black" Binding="{Binding Name}" />
+            <DataGridTextColumn Header="Items" Binding="{Binding DownloadedItems}" IsReadOnly="True"
+                                Width="SizeToHeader" />
+            <DataGridTextColumn Header="NewItems" Binding="{Binding DownloadedItemsNew}" />
+            <DataGridTextColumn Binding="{Binding DownloadedPhotos}" Header="Photos" />
+            <DataGridTextColumn Binding="{Binding DownloadedVideos}" Header="Videos" />
+            <DataGridTextColumn Binding="{Binding DuplicateVideos}" Header="DupeVids" />
+            <DataGridTextColumn Binding="{Binding TotalCount}" Header="NumberOfDownloadableItems"
+                                IsReadOnly="True" Width="SizeToHeader" />
+            <DataGridTextColumn Header="Online" Binding="{Binding Online}" />
+            <DataGridTemplateColumn Header="Progress" Width="200">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <ProgressBar Value="{Binding Progress}" Height="15" Minimum="0" Maximum="100" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+        </DataGrid.Columns>
+    </DataGrid>
+
+</reactiveUi:ReactiveUserControl>

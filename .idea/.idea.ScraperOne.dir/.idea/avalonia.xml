@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="App.axaml" value="ScraperOne.csproj" />
+        <entry key="DataGridStyle.axaml" value="ScraperOne.csproj" />
+        <entry key="Views/BlogManagerView.axaml" value="ScraperOne.csproj" />
+        <entry key="Views/BlogSettings.axaml" value="ScraperOne.csproj" />
+        <entry key="Views/ButtCommands.axaml" value="ScraperOne.csproj" />
+        <entry key="Views/CrawlerView.axaml" value="ScraperOne.csproj" />
+        <entry key="Views/ErrorView.axaml" value="ScraperOne.csproj" />
+        <entry key="Views/MainWindow.axaml" value="ScraperOne.csproj" />
+        <entry key="Views/ManagerView.axaml" value="ScraperOne.csproj" />
+        <entry key="Views/Shell.axaml" value="ScraperOne.csproj" />
+        <entry key="Views/ShellWin.axaml" value="ScraperOne.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

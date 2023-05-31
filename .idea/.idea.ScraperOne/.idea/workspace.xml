@@ -11,40 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea8209b6-f153-4700-b0fc-9562a04d091d" name="Changes" comment="">
-      <changelist_data name="Kyle Crowder" email="kcrowdergoog@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/FooterViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Footer.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Footer.axaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ScraperOne/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScraperOne/.idea/avalonia.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataModels/Blog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataModels/Blog.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataModels/Files/Files.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataModels/Files/Files.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataModels/NewTumblBlog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataModels/NewTumblBlog.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/AppBootStrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/AppBootStrapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/ServicesBootstrapper.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logger/ColorLoggerProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/ColorLoggerProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/Logger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/Logger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Crawlers/AbstractCrawler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Crawlers/AbstractCrawler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Crawlers/ICrawler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Crawlers/ICrawler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Crawlers/NewTumblCrawler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Crawlers/NewTumblCrawler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Downloaders/NewTumblDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Downloaders/NewTumblDownloader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScraperOne.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ScraperOne.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScraperOne.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/BlogService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/BlogService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/CrawlerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/CrawlerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/DIServiceLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/DIServiceLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/ManagerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/ManagerService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/QueueController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/QueueController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/ServiceBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/ServiceBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewLocator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewModels/DebuggerViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/DebuggerViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModels/ManagerButtonsViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/ManagerButtonsViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModels/ManagerViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/ManagerViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/ShellWinViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/ShellWinViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModels/ViewModelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/ViewModelBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/BlogManagerView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/BlogManagerView.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/BlogManagerView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/BlogManagerView.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/CrawlerView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CrawlerView.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/DebuggerWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/DebuggerWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/DebuggerWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/DebuggerWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/ButtCommands.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ButtCommands.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/ShellWin.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ShellWin.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/ShellWin.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ShellWin.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +42,13 @@
         <option value="Kyle Crowder &lt;kcrowdergoog@gmail.com&gt;" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -75,6 +66,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5d744ca757834b01bf1dc7ac38479805ab600/5b/e076fc2a/02000048pdb39High.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/035df6e30186475b89bd921f2c2262474a610/51/06171070/Reflection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/035df6e30186475b89bd921f2c2262474a610/e7/bb42e8af/ExpressionRewriter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/244af548a5ac41a587bd95619615853e1e1600/d9/3c0752ab/Dispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3420d73eea99484586350c088ec03a1893000/f4/f760eedd/Socket.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3e944be7865d4889956d5a16dd77f7497c000/ea/0f34ffdd/D2D1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -84,47 +76,46 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8ea97fd8820c4d138e2cf189ca9144e11aa400/fa/32653e85/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/913f76a7bc0f48589dbe85518f73369417400/01/a366c5d4/StaticResourceExtension.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b3eea72a83364f40a108fa94c1a222e610fc00/35/3a5f3744/AppBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/50d9dd1797f04a1fa231940733bce37a110000/9a/4115d146/TemplatedControl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../AvaTemplate/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Lib/HttpClientLib/ApiClient.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DataModels/NewTumblBlog.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DependencyInjection/AppBootStrapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///storage/Repos/ScraperRepos/ScraperOne/Modules/Crawlers/AbstractCrawler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/ModuleFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/QueueController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Logger/Logger.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2P5IMDxTnzZhyEyUkqpvmkXlveT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.42141864&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;scraperone&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/storage/Repos/AvaTemplate/Program.cs&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.42141864",
+    "git-widget-placeholder": "scraperone",
+    "last_opened_file_path": "/storage/Repos/ScraperRepos/ScraperOne",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "XamlPreviewOptionsPage",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/home/merlin/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
-      &quot;/home/merlin/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
-      &quot;/home/merlin/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/home/merlin/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
+      "/home/merlin/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache",
+      "/home/merlin/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="ScraperOne" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -215,7 +206,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="checkpoint Reactive removal" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkpoint Reactive removal" />
+    <MESSAGE value="Init Git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init Git" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -228,6 +220,12 @@
             <option name="internal" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.NullReferenceException" isInternal="false" displayValue="NullReferenceException" namespaceName="System">
+            <option name="internal" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </breakpoint>
       </breakpoints>
       <default-breakpoints>

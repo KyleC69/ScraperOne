@@ -1,0 +1,96 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Title>Scraper One Blog Manager</Title>
+    <Authors>Kyle Crowder</Authors>
+    <Description>Scraper One is universal platform blog downloader for NewTumbl</Description>
+    <TrimMode>copyused</TrimMode>
+    <TargetFrameworks>net7.0;</TargetFrameworks>
+    <RepositoryUrl>https://github.com/NetRecycler/NetRecycler.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryBranch>main</RepositoryBranch>
+
+  </PropertyGroup>
+
+
+  <PropertyGroup>
+
+    <RestoreSources>https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/avalonia-all/nuget/v3/index.json; https://api.nuget.org/v3/index.json;</RestoreSources>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+
+    <Optimize>false</Optimize>
+    <DebugType>portable</DebugType>
+    <WarningsAsErrors />
+  </PropertyGroup>
+  <ItemGroup>
+    <TrimmableAssembly Include="Avalonia.Themes.Fluent" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+    <None Remove=".gitignore" />
+    <None Remove="3Blogs\**" />
+    <None Remove="Index\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <TrimmerRootDescriptor Include="Roots.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.0.999-cibuild0035433-beta" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.0.999-cibuild0035433-beta" />
+    <PackageReference Include="Avalonia.Controls.Datagrid" Version="11.0.999-cibuild0035433-beta" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.999-cibuild0035433-beta" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.999-cibuild0035433-beta" />
+    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.999-cibuild0035433-beta" />
+    <!-- <PackageReference Include="Avalonia.FreeDesktop" Version="11.0.999-cibuild0035433-beta" />-->
+    <!--  <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="11.0.999-cibuild0035433-beta" />-->
+    <!-- <PackageReference Include="Avalonia.Skia" Version="11.0.999-cibuild0035433-beta" /> -->
+    <!-- <PackageReference Include="Avalonia.Themes.Simple" Version="11.0.999-cibuild0035433-beta" /> -->
+    <!-- <PackageReference Include="Avalonia.X11" Version="11.0.999-cibuild0035433-beta" />-->
+    <!--  <PackageReference Include="Avalonia.Native" Version="11.0.999-cibuild0035433-beta" />-->
+    <!-- <PackageReference Include="Avalonia.Direct2D1" Version="11.0.999-cibuild0035433-beta" />-->
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+    <PackageReference Include="JetBrains.Annotations" Version="2023.2.0-eap3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="PuppeteerSharp" Version="10.0.0" />
+    <PackageReference Include="ReactiveUI" Version="18.4.44" />
+    <PackageReference Include="ReactiveUI.Fody" Version="18.4.44" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="*" />
+    <PackageReference Include="CommunityToolkit.Diagnostics" Version="*" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaXaml Remove="3Blogs\**" />
+    <AvaloniaXaml Remove="Index\**" />
+    <AvaloniaXaml Remove="obj\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="3Blogs\**" />
+    <Compile Remove="Index\**" />
+    <Compile Remove="obj\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="3Blogs\**" />
+    <EmbeddedResource Remove="Index\**" />
+    <EmbeddedResource Remove="obj\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Notification.Avalonia">
+      <HintPath>/storage/RiderProjects/Notification.Avalonia/Notification.Avalonia/bin/Debug/net6.0/Notification.Avalonia.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="HttpClientLib">
+      <HintPath>..\..\Lib\HttpClientLib\bin\RELEASE\net7.0\HttpClientLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Avalonia.Generators\Avalonia.Generators.AvaloniaNameSourceGenerator\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+                    <reactiveui:ReactiveUserControl
+                                x:Class="ScraperOne.Views.BlogManagerView"
+                                x:TypeArguments="vm:ManagerViewModel"
+                                xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                                xmlns:vm="using:ScraperOne.ViewModels"
+                                xmlns:reactiveui="http://reactiveui.net"
+                                xmlns="https://github.com/avaloniaui"
+                                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                                xmlns:controls="https://github.com/avaloniaui"
+                                mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+                                >
+        <DataGrid x:Name="BlogDataGrid"
+              AutoGenerateColumns="false"
+              VerticalScrollBarVisibility="Visible"
+              HorizontalScrollBarVisibility="Hidden"
+              Padding="1" Margin="1"
+              Background="DarkSlateGray"
+              Foreground="Azure"
+              BorderBrush="Blue"
+              BorderThickness="2"
+              SelectionMode="Single"
+              SelectionChanged="BlogDataGrid_OnSelectionChanged"
+              Loaded="BlogDataGrid_OnLoaded"
+              ClipToBounds="True"
+              FontStyle="Oblique"
+              FontWeight="Black"
+              RowBackground="DarkSlateGray"
+              IsReadOnly="True"
+              HeadersVisibility="Column"
+              GridLinesVisibility="All"
+              Width="1150" Height="600" >
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+            <DataGridTextColumn Binding="{Binding DownloadedItemsNew}" Header="New" />
+            <DataGridTextColumn Binding="{Binding DownloadedPhotos}" Header="Photos" />
+            <DataGridTextColumn Binding="{Binding DownloadedVideos}" Header="Videos" />
+            <DataGridTextColumn Binding="{Binding DuplicateVideos}" Header="DupeVids" />
+            <DataGridTextColumn Binding="{Binding TotalCount}" Header="Total" />
+            <DataGridTextColumn Binding="{Binding Path=Online}" Header="Online" />
+            <DataGridTextColumn Binding="{Binding LastStatus}" Header="Status" />
+            <DataGridTemplateColumn Header="Progress" IsReadOnly="True">
+                <DataTemplate >
+                    <ProgressBar Value="{Binding Path=Progress}" Width="200" />
+                </DataTemplate>
+            </DataGridTemplateColumn>
+        </DataGrid.Columns>
+    </DataGrid>
+
+</reactiveui:ReactiveUserControl>

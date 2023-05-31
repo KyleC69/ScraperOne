@@ -1,0 +1,50 @@
+{
+    "editor.foldingImportsByDefault": true,
+    "omnisharp.enableImportCompletion": true,
+    "omnisharp.organizeImportsOnFormat": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "omnisharp.enableRoslynAnalyzers": true,
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.enableFileLinks": "on",
+    "omnisharp.enableAsyncCompletion": true,
+    "files.autoSave": "afterDelay",
+    "editor.cursorStyle": "block",
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "files.maxMemoryForLargeFilesMB": 512,
+    "csharp.semanticHighlighting.enabled": true,
+    "editor.semanticHighlighting.enabled": true,
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.colorCustomizations": {
+        "[GitHub Dark High Contrast]": {
+            "debugView.exceptionLabelBackground": "#635151",
+            "editor.focusedStackFrameHighlightBackground": "#00ff00",
+            "editor.stackFrameHighlightBackground": "#6e4141",
+            
+            "editorBracketHighlight.unexpectedBracket.foreground": "#00ff2a",
+            "debugView.exceptionLabelForeground": "#4ea874",
+            "editor.foreground": "#b9b21c",
+            "textPreformat.foreground": "#ad8b8b",
+            "editorLineNumber.activeForeground": "#f10606",
+            "editorLineNumber.foreground": "#eeff00",
+            "editorError.foreground": "#ff0040",
+            "editorHint.foreground": "#ff0000",
+            "editorWarning.foreground": "#e5ff00",
+    
+            
+        }
+    },
+    "editor.codeLens": true,
+    "csharp.inlayHints.parameters.enabled": true,
+    "csharp.inlayHints.parameters.forObjectCreationParameters": true,
+    "csharp.inlayHints.types.enabled": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+}
